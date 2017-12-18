@@ -1,0 +1,5 @@
+digraph lista{ 
+rankdir = TB; 
+node [shape = record];
+Matriz[shape = record,label="{{{1}|{0}}|{{2}|{4}}}"]; 
+}

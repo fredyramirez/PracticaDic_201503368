@@ -1,0 +1,6 @@
+digraph lista{
+rankdir = LR;
+inicio [shape = plaintext, label = "inicio"];
+null [shape = plaintext, label = "null"];
+inicio -> null
+;}

@@ -1,0 +1,10 @@
+digraph lista{
+rankdir = LR;
+inicio [shape = plaintext, label = "inicio"];
+null [shape = plaintext, label = "null"];
+struct0 [shape = record,label="{<f0> |<f1>7 |<f2> }"];
+struct0;
+label = "Cola";
+inicio -> struct0;
+struct0 -> null;
+}
